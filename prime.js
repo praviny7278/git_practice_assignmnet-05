@@ -8,13 +8,24 @@
          count++;
       
 }
-      if(count==9){
-          console.log("Yes");
+      if(count==2){
+          return true;
       }else{
-          console.log("No");
+          return false;
       
 }
 }
 
 
-che
+let ans = checkprime(13);
+
+if(ans == true){
+   console.lo("prime");
+  }else{
+     console.log("not prime");
+
+
+
+
+
+
