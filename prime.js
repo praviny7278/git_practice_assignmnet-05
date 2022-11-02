@@ -6,21 +6,20 @@
      
      if(num%i==0){
          count++;
-      
+     } 
 }
-}
-      if(count==9){
-         return true;
-      }
-      return false
-      
+
+if(count == 2){
+   return true;
+}else{
+   return false;
 
 }
 
 let ans=checkprime(17);
-if(ans==true){
-console.log("prime")
-}else{
-console.log("not prime")
 
+if(ans==true){
+console.log("prime");
+}else{
+console.log("not prime");
 }
