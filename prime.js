@@ -8,13 +8,19 @@
          count++;
       
 }
+}
       if(count==9){
-          console.log("Yes");
-      }else{
-          console.log("No");
+         return true;
+      }
+      return false
       
-}
+
 }
 
+let ans=checkprime(17);
+if(ans==true){
+console.log("prime")
+}else{
+console.log("not prime")
 
-che
+}
